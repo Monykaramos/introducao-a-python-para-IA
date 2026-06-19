@@ -3,23 +3,7 @@
 
 ---
 
-## Roteiro da aula (carga horária)
-
-| Bloco | Conteúdo | Duração |
-|---|---|---|
-| 1 | Abertura e apresentação dos objetivos | 10 min |
-| 2 | O que é Machine Learning | 40 min |
-| 3 | Tipos de aprendizado | 50 min |
-| — | **Intervalo** | 15 min |
-| 4 | Ciclo de vida de um projeto de ML | 30 min |
-| 5 | Casos de uso reais | 20 min |
-| — | **Intervalo** | 10 min |
-| 6 | Prática no Google Colab | 60 min |
-| 7 | Encerramento e exercícios | 15 min |
-
----
-
-## Bloco 2 — O que é Machine Learning (40 min)
+## Bloco 2 — O que é Machine Learning 
 
 **Definição:** ML é a área da computação em que o sistema aprende padrões a partir de dados, em vez de seguir regras explicitamente programadas.
 
@@ -42,9 +26,9 @@
 
 ---
 
-## Bloco 3 — Tipos de Aprendizado (50 min)
+## Bloco 3 — Tipos de Aprendizado 
 
-### 1. Aprendizado Supervisionado (~20 min)
+### 1. Aprendizado Supervisionado 
 O modelo aprende com exemplos rotulados (entrada + resposta correta).
 
 **Analogia:** Um aluno estudando com um gabarito ao lado — vê a pergunta, tenta responder, confere com a resposta certa e ajusta seu raciocínio.
@@ -52,7 +36,7 @@ O modelo aprende com exemplos rotulados (entrada + resposta correta).
 - **Regressão:** prever um valor numérico (ex: preço de uma casa).
 - **Classificação:** prever uma categoria (ex: e-mail é spam ou não).
 
-### 2. Aprendizado Não Supervisionado (~15 min)
+### 2. Aprendizado Não Supervisionado 
 O modelo recebe dados **sem rótulos** e precisa encontrar padrões ou agrupamentos por conta própria.
 
 **Analogia:** Organizar uma caixa de botões misturados sem instruções — você naturalmente os agrupa por cor, tamanho ou formato, mesmo sem alguém dizer como.
@@ -60,14 +44,14 @@ O modelo recebe dados **sem rótulos** e precisa encontrar padrões ou agrupamen
 - **Clustering:** agrupar elementos semelhantes (ex: segmentação de clientes).
 - **Redução de dimensionalidade:** simplificar dados complexos mantendo o essencial.
 
-### 3. Aprendizado por Reforço (~15 min)
+### 3. Aprendizado por Reforço 
 O modelo aprende por tentativa e erro, recebendo recompensas ou punições conforme suas ações.
 
 **Analogia:** Treinar um cachorro com petiscos — ele não recebe um manual, mas aprende por repetição quais ações geram recompensa.
 
 ---
 
-## Bloco 4 — Ciclo de Vida de um Projeto de ML (30 min)
+## Bloco 4 — Ciclo de Vida de um Projeto de ML 
 
 ```
 1. Definição do problema
@@ -86,7 +70,7 @@ O modelo aprende por tentativa e erro, recebendo recompensas ou punições confo
 
 ---
 
-## Bloco 5 — Casos de Uso Reais (20 min)
+## Bloco 5 — Casos de Uso Reais 
 
 | Aplicação | Tipo de aprendizado | Exemplo |
 |---|---|---|
@@ -98,9 +82,9 @@ O modelo aprende por tentativa e erro, recebendo recompensas ou punições confo
 
 ---
 
-## Bloco 6 — Prática no Google Colab (60 min)
+## Bloco 6 — Prática no Google Colab 
 
-### Passo 1 — Configuração do ambiente (10 min)
+### Passo 1 — Configuração do ambiente 
 
 ```python
 import pandas as pd
@@ -120,7 +104,7 @@ print("Ambiente pronto!")
 
 ---
 
-### Passo 2 — Carregar e explorar o dataset (20 min)
+### Passo 2 — Carregar e explorar o dataset
 
 ```python
 from sklearn.datasets import load_iris
@@ -150,7 +134,7 @@ df.describe()
 
 ---
 
-### Passo 3 — Visualização exploratória (20 min)
+### Passo 3 — Visualização exploratória 
 
 ```python
 df['target'].value_counts()
@@ -180,12 +164,12 @@ plt.show()
 
 ---
 
-### Passo 4 — Fechamento da prática (10 min)
+### Passo 4 — Fechamento da prática 
 Reforçar: ainda não treinamos nenhum modelo — só **exploramos** os dados (etapas 2-3 do ciclo de vida visto no Bloco 4).
 
 ---
 
-## Bloco 7 — Encerramento (15 min)
+## Bloco 7 — Encerramento 
 - Recapitular os 3 tipos de aprendizado e o ciclo de vida.
 - Apresentar a lista de exercícios (tarefa para casa).
 - Prévia da Aula 2: matemática essencial (vetores, distâncias, médias).
@@ -214,4 +198,3 @@ Reforçar: ainda não treinamos nenhum modelo — só **exploramos** os dados (e
 
 ---
 
-Quer o **gabarito comentado** desta lista, ou seguimos para a **Aula 02**?
