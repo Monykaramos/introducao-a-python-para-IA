@@ -23,3 +23,5 @@ modelo.fit(X, y)
 * X: É a matriz contendo as features (características, atributos ou variáveis independentes) que o modelo usará para aprender.
 * y: É o vetor contendo o target (rótulo, valor alvo ou variável dependente) associado aos dados em X
 
+
+https://colab.research.google.com/drive/17zoaNbTTk5wmI1umv8c-TetH4ulm9oDU?usp=sharing
