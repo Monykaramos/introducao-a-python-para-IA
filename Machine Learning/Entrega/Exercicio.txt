@@ -1,0 +1,25 @@
+Explique com suas palavras:
+
+1.O que é Machine Learning?
+Treinamento de máquina
+
+2.Explique a diferença entre:
+X e y
+o x são os dados e o y a saída
+
+
+3. O que faz esta linha?
+import pandas as pd
+importa o pandas e apelida de pd
+
+4 . O que é um DataFrame?
+Transforma os dados em tabela.
+
+5.Explique:
+modelo.fit(X, y)
+É a etapa de treinamento em algoritmos de Machine Learning (como na biblioteca Scikit-learn), onde o modelo analisa os dados históricos para aprender padrões.
+* Modelo: É o algoritmo de aprendizado de máquina previamente instanciado (ex: uma Regressão Linear, Árvore de Decisão, etc.)..
+* Fit(): É o método responsável por "ajustar" ou "encaixar" o modelo aos dados. Ele inicia o processo de aprendizado.
+* X: É a matriz contendo as features (características, atributos ou variáveis independentes) que o modelo usará para aprender.
+* y: É o vetor contendo o target (rótulo, valor alvo ou variável dependente) associado aos dados em X
+
